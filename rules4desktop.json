@@ -3,7 +3,7 @@
     "name": "AtCoder | Submissions",
     "url": "^https?://atcoder\\.jp/contests/.+/submissions",
     "example": "https://atcoder.jp/contests/abc379/submissions",
-    "pageElements": "//div[@class='table-responsive']/table/tbody"
+    "pageElement": "//div[@class='table-responsive']/table/tbody"
   },
   {
     "name": "AtCoder | Standings",
