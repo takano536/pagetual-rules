@@ -1,2 +1,3 @@
 # pagetual-rules
-https://pagetual.hoothin.com/
+
+https://pagetual.hoothin.com
