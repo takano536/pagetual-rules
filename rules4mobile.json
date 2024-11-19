@@ -194,5 +194,11 @@
     "author": "takano",
     "url": "^https://news\\.allabout\\.co\\.jp/articles",
     "autoClick": "//a[contains(text(),'続きを読む')]"
+  },
+  {
+    "name": "お金が足りません…月収70万円・48歳大企業勤務のエリートサラリーマン。住まいは「東京・中野の築40年アパート」「家賃は月7万円」の切実理由｜資産形成ゴールドオンライン",
+    "url": "^https?://gentosha-go\\.com/articles/-/",
+    "example":         "https://gentosha-go.com/articles/-/65053",
+    "pageElement", "//div[@class='article-body']"
   }
 ]
