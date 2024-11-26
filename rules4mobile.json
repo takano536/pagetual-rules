@@ -198,8 +198,14 @@
   {
     "name": "資産形成ゴールドオンライン",
     "url": "^https?://gentosha-go\\.com/articles/-/",
-    "example": 
-"https://gentosha-go.com/articles/-/65053",
+    "example": "https://gentosha-go.com/articles/-/65053",
     "pageElement": "//div[@class='article-body']"
+  },
+  {
+    "name": "Number Web",
+    "url": "^https?://number\\.bunshun\\.jp/articles/-/",
+    "example": "https://number.bunshun.jp/articles/-/863785",
+    "autoClick": "//a/span[text()='続きを読む']",
+    "pageElement": "//div[@class='single']"
   }
 ]
