@@ -7,13 +7,6 @@
     "pageElement": "//div[@class='table-responsive']/table/tbody"
   },
   {
-    "name": "AtCoder | Standings",
-    "author": "takano",
-    "url": "^https://atcoder\\.jp/contests/.+/standings",
-    "example": "https://atcoder.jp/contests/abc379/standings",
-    "enable": 0
-  },
-  {
     "name": "MATLAB | Help",
     "url": "^https?://jp\\.mathworks\\.com/help/matlab/.+_ja_JP.html",
     "example": "https://jp.mathworks.com/help/matlab/ref/cell_ja_JP.html",
