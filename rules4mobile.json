@@ -197,31 +197,36 @@
   },
   {
     "name": "資産形成ゴールドオンライン",
+    "author": "takano",
     "url": "^https?://gentosha-go\\.com/articles/-/",
     "example": "https://gentosha-go.com/articles/-/65053",
     "pageElement": "//div[@class='article-body']"
   },
   {
     "name": "Number Web",
+    "author": "takano",
     "url": "^https?://number\\.bunshun\\.jp/articles/-/",
     "example": "https://number.bunshun.jp/articles/-/863785",
     "autoClick": "//a/span[text()='続きを読む']",
     "pageElement": "//div[@class='single']"
   },
   {
-    "name": "LIMO | Articles",
+    "name": "LIMO | Read More",
+    "author": "takano",
     "url": "^https?://limo\\.media/articles/-/\\d+$",
     "example": "https://limo.media/articles/-/71808",
     "autoClick": "//a[text()='続きを読む']"
   },
   {
     "name": "LIMO | Articles",
+    "author": "takano",
     "url": "^https?://limo\\.media/articles/-/",
     "example": "https://limo.media/articles/-/71808",
     "pageElement": "//div[@class='article-body']"
   },
   {
     "name": "マネーポストWEB",
+    "author": "takano",
     "url": "^https?://www\\.moneypost\\.jp/",
     "example": "https://www.moneypost.jp/1212899",
     "pageElement": "//div[@class='wp-editor']",
