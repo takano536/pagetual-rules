@@ -207,5 +207,24 @@
     "example": "https://number.bunshun.jp/articles/-/863785",
     "autoClick": "//a/span[text()='続きを読む']",
     "pageElement": "//div[@class='single']"
+  },
+  {
+    "name": "LIMO | Articles",
+    "url": "^https?://limo\\.media/articles/-/\\d+$",
+    "example": "https://limo.media/articles/-/71808",
+    "autoClick": "//a[text()='続きを読む']"
+  },
+  {
+    "name": "LIMO | Articles",
+    "url": "^https?://limo\\.media/articles/-/",
+    "example": "https://limo.media/articles/-/71808",
+    "pageElement": "//div[@class='article-body']"
+  },
+  {
+    "name": "マネーポストWEB",
+    "url": "^https?://www\\.moneypost\\.jp/",
+    "example": "https://www.moneypost.jp/1212899",
+    "pageElement": "//div[@class='wp-editor']",
+    "nextLink": "//a[@class='st-Pagination_Link st-Pagination_Link-arrow st-Pagination_Link-next']"
   }
 ]
