@@ -8,7 +8,7 @@
   },
   {
     "name": "MATLAB | Help",
-    "url": "^https?://jp\\.mathworks\\.com/help/(matlab|symbolic)/.+_ja_JP.html",
+    "url": "^https?://jp\\.mathworks\\.com/help/.+_ja_JP.html",
     "example": "https://jp.mathworks.com/help/matlab/ref/cell_ja_JP.html",
     "init": "location.href=location.href.replace('_ja_JP','');"
   }
