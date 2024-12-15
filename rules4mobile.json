@@ -231,5 +231,11 @@
     "example": "https://www.moneypost.jp/1212899",
     "pageElement": "//div[@class='wp-editor']",
     "nextLink": "//a[@class='st-Pagination_Link st-Pagination_Link-arrow st-Pagination_Link-next']"
+  },
+  {
+    "name": "東スポWEB",
+    "url": "^https?://www\\.tokyo-sports\\.co\\.jp/articles/-/",
+    "example": "https://www.tokyo-sports.co.jp/articles/-/327258",
+    "autoClick": "//a[@href='?page=1']"
   }
 ]
