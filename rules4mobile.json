@@ -237,5 +237,11 @@
     "url": "^https?://www\\.tokyo-sports\\.co\\.jp/articles/-/",
     "example": "https://www.tokyo-sports.co.jp/articles/-/327258",
     "autoClick": "//a[@href='?page=1']"
+  },
+  {
+    "name": "ABEMA TIMES",
+    "url": "^https?://times\\.abema\\.tv/articles/-/",
+    "example": "https://times.abema.tv/articles/-/10156082",
+    "autoClick": "//a[text()='続きを読む']"
   }
 ]
