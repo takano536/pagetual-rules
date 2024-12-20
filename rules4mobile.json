@@ -243,5 +243,11 @@
     "url": "^https?://times\\.abema\\.tv/articles/-/",
     "example": "https://times.abema.tv/articles/-/10156082",
     "autoClick": "//a[text()='続きを読む']"
+  },
+  {
+    "name": "マイナビニュース",
+    "url": "^https?://news\\.mynavi\\.jp/article/20241219-3089932/",
+    "example": "https://news.mynavi.jp/article/20241219-3089932/",
+    "autoClick": "//a[contains(text(),'記事を読む')]"
   }
 ]
