@@ -249,5 +249,11 @@
     "url": "^https?://news\\.mynavi\\.jp/article/20241219-3089932/",
     "example": "https://news.mynavi.jp/article/20241219-3089932/",
     "autoClick": "//a[contains(text(),'記事を読む')]"
+  },
+  {
+    "name": "ｄメニューニュース（NTTドコモ）",
+    "url": "^https?://topics\\.smt\\.docomo\\.ne\\.jp/article",
+    "example": "https://topics.smt.docomo.ne.jp/article/president/bizskills/president_89488",
+    "pageElement": "//div[@class='articlebody']"
   }
 ]
