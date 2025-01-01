@@ -256,5 +256,11 @@
     "url": "^https?://topics\\.smt\\.docomo\\.ne\\.jp/article",
     "example": "https://topics.smt.docomo.ne.jp/article/president/bizskills/president_89488",
     "pageElement": "//div[@class='articlebody']"
+  },
+  {
+    "name": "ナゾロジー",
+    "url": "^https?://nazology\\.kusuguru\\.co\\.jp/archives/",
+    "example": "https://nazology.kusuguru.co.jp/archives/168291",
+    "pageElement": "//div[@class='post-article-body']"
   }
 ]
