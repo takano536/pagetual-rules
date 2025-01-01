@@ -112,7 +112,8 @@
     "author": "takano",
     "url": "^https?://president\\.jp/articles/-",
     "example": "https://president.jp/articles/-/87457",
-    "autoClick": "//a/span[text()='続きを読む']"
+    "autoClick": "//a/span[text()='続きを読む']",
+    "pageElement": "//section[@class='article-body']"
   },
   {
     "name": "東洋経済オンライン",
