@@ -261,6 +261,7 @@
     "name": "ナゾロジー",
     "url": "^https?://nazology\\.kusuguru\\.co\\.jp/archives/",
     "example": "https://nazology.kusuguru.co.jp/archives/168291",
-    "pageElement": "//div[@class='post-article-body']"
+    "pageElement": "//div[@class='post-article-body']",
+    "nextLink": "//a/p[text()='>']"
   }
 ]
