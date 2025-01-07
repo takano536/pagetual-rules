@@ -235,30 +235,35 @@
   },
   {
     "name": "東スポWEB",
+    "author": "takano",
     "url": "^https?://www\\.tokyo-sports\\.co\\.jp/articles/-/",
     "example": "https://www.tokyo-sports.co.jp/articles/-/327258",
     "autoClick": "//a[@href='?page=1']"
   },
   {
     "name": "ABEMA TIMES",
+    "author": "takano",
     "url": "^https?://times\\.abema\\.tv/articles/-/",
     "example": "https://times.abema.tv/articles/-/10156082",
     "autoClick": "//a[text()='続きを読む']"
   },
   {
     "name": "マイナビニュース",
+    "author": "takano",
     "url": "^https?://news\\.mynavi\\.jp/article/20241219-3089932/",
     "example": "https://news.mynavi.jp/article/20241219-3089932/",
     "autoClick": "//a[contains(text(),'記事を読む')]"
   },
   {
     "name": "ｄメニューニュース（NTTドコモ）",
+    "author": "takano",
     "url": "^https?://topics\\.smt\\.docomo\\.ne\\.jp/article",
     "example": "https://topics.smt.docomo.ne.jp/article/president/bizskills/president_89488",
     "pageElement": "//div[@class='articlebody']"
   },
   {
     "name": "ナゾロジー",
+    "author": "takano",
     "url": "^https?://nazology\\.kusuguru\\.co\\.jp/archives/",
     "example": "https://nazology.kusuguru.co.jp/archives/168291",
     "pageElement": "//div[@class='post-article-body']",
