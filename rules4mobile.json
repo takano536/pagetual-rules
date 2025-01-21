@@ -268,5 +268,12 @@
     "example": "https://nazology.kusuguru.co.jp/archives/168291",
     "pageElement": "//div[@class='post-article-body']",
     "nextLink": "//a/p[text()='>']"
+  },
+  {
+    "name": "テレ朝 News",
+    "author": "takano",
+    "url": "^https?://news\\.tv-asahi\\.co\\.jp/news_.+",
+    "example": "https://news.tv-asahi.co.jp/news_economy/articles/000399307.html",
+    "autoClick": "//a[text()='続きを読む']"
   }
 ]
