@@ -5,11 +5,5 @@
     "url": "^https?://atcoder\\.jp/contests/.+/submissions",
     "example": "https://atcoder.jp/contests/abc379/submissions",
     "pageElement": "//div[@class='table-responsive']/table/tbody"
-  },
-  {
-    "name": "MATLAB | Help",
-    "url": "^https?://jp\\.mathworks\\.com/help/.+_ja_JP.html",
-    "example": "https://jp.mathworks.com/help/matlab/ref/cell_ja_JP.html",
-    "init": "location.href=location.href.replace('_ja_JP','');"
   }
 ]
