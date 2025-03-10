@@ -282,12 +282,5 @@
     "url": "^https?://atcoder\\.jp/contests/.+/submissions",
     "example": "https://atcoder.jp/contests/abc379/submissions",
     "pageElement": "//div[@class='table-responsive']/table/tbody"
-  },
-  {
-    "name": "案件比較検索 / どこ得？",
-    "url": "^https?://dokotoku\\.jp/\\?q=.+",
-    "example": "https://dokotoku.jp/?q=olive",
-    "nextLink": "body > ul.notice+main > section > nav > ul.page > li",
-    "pageElement": "/html/body/main/section/table"
   }
 ]
