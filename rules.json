@@ -285,9 +285,10 @@
   },
   {
     "name": "案件比較検索 / どこ得？",
+    "author": "takano",
     "url": "^https?://dokotoku\\.jp/?q=.+",
     "example": "https://dokotoku.jp/?q=olive",
     "nextLink": "body > ul.notice+main > section > nav > ul.page > li",
-    "pageElement": "/html/body/main/section/table"
+    "pageElement": "//main/section/table"
   }
 ]
