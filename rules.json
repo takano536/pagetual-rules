@@ -23,9 +23,8 @@
   {
     "name": "ダイヤモンド・オンライン",
     "author": "takano",
-    "url": "^https?://diamond\\.jp/articles",
+    "url": "^https?://diamond\\.jp/articles/-/\\d+",
     "example": "https://diamond.jp/articles/amp/352572",
-    "autoClick": "//a[text()='続きを読む']",
     "pageElement": "//section[@class='article-body cXenseParse']"
   },
   {
