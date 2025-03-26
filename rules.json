@@ -16,16 +16,16 @@
   {
     "name": "ダイヤモンド・オンライン | Read More",
     "author": "takano",
-    "url": "^https?://diamond\\.jp/articles/amp",
+    "url": "^https?://diamond\\.jp/articles/amp/",
     "example": "https://diamond.jp/articles/amp/352572",
     "autoClick": "//a[text()='続きを読む']"
   },
   {
     "name": "ダイヤモンド・オンライン",
     "author": "takano",
-    "url": "^https?://diamond\\.jp/articles/-/\\d+",
+    "url": "^https?://diamond\\.jp/articles/-/",
     "example": "https://diamond.jp/articles/amp/352572",
-    "pageElement": "//section[@class='article-body cXenseParse']"
+    "pageElement": "//div[@class='article-body cXenseParse']"
   },
   {
     "name": "TBS NEWS DIG",
