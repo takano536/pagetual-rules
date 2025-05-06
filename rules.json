@@ -30,7 +30,7 @@
   },
   {
     "name": "TBS NEWS DIG",
-    "author": "takano"o",
+    "author": "takano",
     "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-",
     "example": "https://newsdig.tbs.co.jp/articles/-/1530214",
     "autoClick": "//a[text()='続きを読む']"
