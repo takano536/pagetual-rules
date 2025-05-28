@@ -104,7 +104,7 @@
     "name": "マネー現代",
     "author": "takano",
     "url": "^https?://gendai\\.media/articles/-/\\d+\\?.+",
-    "example": "https://gendai.media/articles/-/140470",
+    "example": "https://gendai.media/articles/-/152559?imp=0",
     "pageElement": "//div[@class='articleContents mg']",
     "autoClick": "//a[text()='＞']"
   },
