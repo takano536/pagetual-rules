@@ -106,7 +106,7 @@
     "url": "^https?://gendai\\.media/articles/-/\\d+\\?.+",
     "example": "https://gendai.media/articles/-/152559?imp=0",
     "pageElement": "//div[@class='articleContents mg']",
-    "autoClick": "//a[text()='＞']"
+    "nextLink": "//a[text()='＞']"
   },
   {
     "name": "GetNews",
