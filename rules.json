@@ -93,7 +93,7 @@
     "autoClick": "//div[@class='btn_moreopen']/span[text()='記事全文を読む']"
   },
   {
-    "name": "現代ビジネス",
+    "name": "現代ビジネス | Read More",
     "author": "takano",
     "url": "^https?://gendai\\.media/articles/-",
     "example": "https://gendai.media/articles/-/140470",
@@ -101,7 +101,7 @@
     "autoClick": "//a[text()='続きを読む']"
   },
   {
-    "name": "マネー現代",
+    "name": "現代ビジネス",
     "author": "takano",
     "url": "^https?://gendai\\.media/articles/-/\\d+\\?.+",
     "example": "https://gendai.media/articles/-/152559?imp=0",
