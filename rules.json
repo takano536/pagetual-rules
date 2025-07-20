@@ -43,6 +43,13 @@
     "autoClick": "//a/div[text()='記事を読む' or text()='続きを読む']"
   },
   {
+    "name": "ライブドアニュース 2",
+    "author": "takano",
+    "url": "^https?://news\\.livedoor\\.com/article/detail",
+    "example": "https://news.livedoor.com/article/detail/29198172/",
+    "autoClick": "//a/div[text()='記事を読む' or text()='続きを読む']"
+  },
+  {
     "name": "日刊スポーツ",
     "author": "takano",
     "url": "^https?://www\\.nikkansports\\.com/m/(?!.*\\?mode=all$).*$",
