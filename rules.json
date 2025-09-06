@@ -46,15 +46,8 @@
   {
     "name": "ライブドアニュース",
     "author": "takano",
-    "url": "^https?://news\\.livedoor\\.com/.+_detail",
+    "url": "^https?://news\\.livedoor\\.com/.+detail",
     "example": "https://news.livedoor.com/lite/article_detail/27498223",
-    "autoClick": "//a/div[text()='記事を読む' or text()='続きを読む']"
-  },
-  {
-    "name": "ライブドアニュース 2",
-    "author": "takano",
-    "url": "^https?://news\\.livedoor\\.com/article/detail",
-    "example": "https://news.livedoor.com/article/detail/29198172/",
     "autoClick": "//a/div[text()='記事を読む' or text()='続きを読む']"
   },
   {
