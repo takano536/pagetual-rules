@@ -33,7 +33,9 @@
     "author": "takano",
     "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-",
     "example": "https://newsdig.tbs.co.jp/articles/-/1530214",
-    "autoClick": "//a[text()='続きを読む']"
+    "autoClick": "//a[text()='続きを読む']",
+    "pageElement": "//div[contains(@class,'article-body')]",
+    "nextLink": "//a[@class='article-next']"
   },
   {
     "name": "ライブドアニュース",
