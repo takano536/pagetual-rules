@@ -41,7 +41,7 @@
     "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-",
     "example": "https://newsdig.tbs.co.jp/articles/-/1530214",
     "pageElement": "//div[contains(@class,'article-body')]",
-    "nextLink": "//a[@class='article-next']"
+    "nextLink": "//div[@class='article-next__title']"
   },
   {
     "name": "ライブドアニュース",
