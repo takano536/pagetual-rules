@@ -308,7 +308,7 @@
   },
   {
     "name": "GIZMODE | Read More",
-    "url": "^https?://www\\.gizmodo\\.jp/.*\\?mode=assets.*",
+    "url": "^https?://www\\.gizmodo\\.jp/.*mode=assets.*",
     "example": "https://www.gizmodo.jp/2025/09/us_keyboard.html?mode=assets&p=21",
     "autoClick": "//a[contains(text(),'続きを読む') or contains(text(),'MORE')]"
   }
