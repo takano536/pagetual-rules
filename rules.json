@@ -1,5 +1,14 @@
 [
   {
+    "name": "National Geographic",
+    "author": "takano",
+    "url": "https?://natgeo\\.nikkeibp\\.co\\.jp/atcl/news/\\d+/\\d+/",
+    "example": "https://natgeo.nikkeibp.co.jp/atcl/news/25/091100505/?ST=m_news",
+    "pageElement": "//div[@class='articleBody']",
+    "exclude": "//div[@class='articleBody']/section[@class='recommendBox']",
+    "nextLink": "//li[@class='next']/a"
+  },
+  {
     "name": "Yahoo!ニュース",
     "author": "takano",
     "url": "^https?://news\\.yahoo\\.co\\.jp/pickup",
@@ -293,14 +302,8 @@
     "autoClick": "//a[text()='続きを読む']"
   },
   {
-    "name": "AtCoder | Submissions",
-    "author": "takano",
-    "url": "^https?://atcoder\\.jp/contests/.+/submissions",
-    "example": "https://atcoder.jp/contests/abc379/submissions",
-    "pageElement": "//div[@class='table-responsive']/table/tbody"
-  },
-  {
     "name": "Finasee",
+    "author": "takano",
     "url": "^https?://media\\.finasee\\.jp/articles/-/",
     "example": "https://media.finasee.jp/articles/-/15671",
     "autoClick": "//a[contains(text(),'続きを読む')]",
@@ -308,6 +311,7 @@
   },
   {
     "name": "GIZMODE | Read More",
+    "author": "takano",
     "url": "^https?://www\\.gizmodo\\.jp/.*mode=assets.*",
     "example": "https://www.gizmodo.jp/2025/09/us_keyboard.html?mode=assets&p=21",
     "autoClick": "//a[contains(text(),'続きを読む') or contains(text(),'MORE')]"
