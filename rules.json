@@ -119,7 +119,7 @@
   {
     "name": "現代ビジネス",
     "author": "takano",
-    "url": "^https?://gendai\\.media/articles/-/",
+    "url": "^https?://gendai\\.media/articles/-/\\d\\?(imp|page)=\\d+$",
     "example": "https://gendai.media/articles/-/152559?imp=0",
     "autoClick": "//a[text()='続きを読む']",
     "pageElement": "//div[@class='articleContents mg']",
