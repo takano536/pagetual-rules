@@ -113,8 +113,7 @@
     "name": "現代ビジネス | Read More",
     "author": "takano",
     "url": "^https?://gendai\\.media/articles/-/",
-    "example": "https://gendai.media/articles/-/140470",
-    "pageElement": "//div[@class='articleContents']",
+    "example": "https://gendai.media/articles/-/159096",
     "autoClick": "//a[text()='続きを読む']"
   },
   {
