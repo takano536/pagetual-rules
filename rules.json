@@ -1,5 +1,11 @@
 [
   {
+    "name": "Startpage 検索結果",
+    "url": "^https?://www\\.startpage\\.com/sp/",
+    "example": "https://www.startpage.com/sp/search?query=startpage",
+    "autoClick": "//div[contains(@class, 'filter-toggle-container')]"
+  },
+  {
     "name": "SearXNG",
     "url": "^https?://searxng\\.takanori\\.uk/",
     "example": "https://searxng.takanori.uk/search?q=searxng",
