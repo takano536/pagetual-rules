@@ -1,5 +1,11 @@
 [
   {
+    "name": "SearXNG",
+    "url": "^https?://searxng\\.takanori\\.uk/",
+    "example": "https://searxng.takanori.uk/search?q=searxng",
+    "autoClick": "//summary[@id='engines_msg-title']"
+  },
+  {
     "name": "National Geographic",
     "author": "takano",
     "url": "https?://natgeo\\.nikkeibp\\.co\\.jp/atcl/news/\\d+/\\d+/",
