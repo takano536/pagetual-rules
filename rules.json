@@ -1,5 +1,12 @@
 [
   {
+    "name": "TRILL | Read More",
+    "author": "takano",
+    "url": "^https?://trilltrill\\.jp/articles",
+    "example": "https://trilltrill.jp/articles/4533385",
+    "autoClick": "//button[@id='readmore']"
+  },
+  {
     "name": "Startpage 検索結果",
     "url": "^https?://www\\.startpage\\.com/sp/",
     "example": "https://www.startpage.com/sp/search?query=startpage",
