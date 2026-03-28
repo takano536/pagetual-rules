@@ -2,10 +2,11 @@
   {
     "name": "PRESIDENT Online",
     "author": "takano",
-    "url": "^https?://president\\.jp/articles/-/\\d+$",
+    "url": "^https?://president\\.jp/articles/-/",
     "example": "https://president.jp/articles/-/87457",
     "autoClick": "//a/span[text()='続きを読む']",
-    "pageElement": "//section[@class='article-body']"
+    "pageElement": "//section[@class='article-body']",
+    "comment": "Not working"
   },
   {
     "name": "TRILL | Read More",
