@@ -18,16 +18,22 @@
     "nextLink": "//a[contains(@class,'article_nextPage_link')]"
   },
   {
+    "name": "PRESIDENT Online | Read more",
+    "author": "takano",
+    "url": "^https?://president\\.jp/articles/-/\\d+$",
+    "example": "https://president.jp/articles/-/87457",
+    "init":"if(!location.search.includes('page='))location.href=location.origin+location.pathname+(location.search?location.search+'&':'?')+'page=1';"
+  },
+  {
     "name": "PRESIDENT Online",
     "author": "takano",
     "url": "^https?://president\\.jp/articles/-/",
     "example": "https://president.jp/articles/-/87457",
     "autoClick": "//a/span[text()='続きを読む']",
-    "pageElement": "//section[@class='article-body']",
-    "comment": "Not working"
+    "pageElement": "//section[@class='article-body']"
   },
   {
-    "name": "TRILL | Read More",
+    "name": "TRILL | Read more",
     "author": "takano",
     "url": "^https?://trilltrill\\.jp/articles",
     "example": "https://trilltrill.jp/articles/4533385",
@@ -69,7 +75,7 @@
     "autoClick": "//a[text()='続きを読む']"
   },
   {
-    "name": "ダイヤモンド・オンライン | Read More",
+    "name": "ダイヤモンド・オンライン | Read more",
     "author": "takano",
     "url": "^https?://diamond\\.jp/articles/amp/",
     "example": "https://diamond.jp/articles/amp/352572",
@@ -121,7 +127,7 @@
     "autoClick": "//a[text()='続きを見る']"
   },
   {
-    "name": "ITmedia | Read More",
+    "name": "ITmedia | Read more",
     "author": "takano",
     "url": "^https?://.+\\.itmedia\\.co\\.jp/.+\\_0.html$",
     "example": "https://www.itmedia.co.jp/business/spv/2411/05/news028_0.html",
@@ -150,7 +156,7 @@
     "autoClick": "//div[@class='btn_moreopen']/span[text()='記事全文を読む']"
   },
   {
-    "name": "現代ビジネス | Read More",
+    "name": "現代ビジネス | Read more",
     "author": "takano",
     "url": "^https?://gendai\\.media/articles/-/\\d+$",
     "example": "https://gendai.media/articles/-/159096",
@@ -186,7 +192,7 @@
     "autoClick": "//a[text()='続きを読む']"
   },
   {
-    "name": "文春オンライン | Read More",
+    "name": "文春オンライン | Read more",
     "author": "takano",
     "url": "^https?://bunshun\\.jp/articles/-/\\d+$",
     "example": "https://bunshun.jp/articles/-/74496",
@@ -268,7 +274,7 @@
     "pageElement": "//div[@class='single']"
   },
   {
-    "name": "LIMO | Read More",
+    "name": "LIMO | Read more",
     "author": "takano",
     "url": "^https?://limo\\.media/articles/-/\\d+$",
     "example": "https://limo.media/articles/-/71808",
@@ -341,7 +347,7 @@
     "pageElement": "//section[@class='article-body']"
   },
   {
-    "name": "GIZMODE | Read More",
+    "name": "GIZMODE | Read more",
     "author": "takano",
     "url": "^https?://www\\.gizmodo\\.jp/.*mode=assets.*",
     "example": "https://www.gizmodo.jp/2025/09/us_keyboard.html?mode=assets&p=21",
