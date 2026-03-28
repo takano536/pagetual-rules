@@ -1,11 +1,17 @@
 [
   {
-  "name": "Forbes JAPAN",
-  "url": "^https?://forbesjapan\\.com/articles/detail/",
-  "pageElement": "//div[contains(@class,'article-detail-txt')]",
-  "nextLink": "//div[@class='article-detail-btn']/a",
-  "action": 1,
-  "init": "if(!location.search.includes('read_more=1'))location.href=location.origin+location.pathname+(location.search?location.search+'&':'?')+'read_more=1';"
+    "name": "スポニチ | Read more",
+    "url": "^https?://www\\.sponichi\\.co\\.jp/entertainment/news/2026/03/27/kiji/",
+    "example": "https://www.sponichi.co.jp/entertainment/news/2026/03/27/kiji/20260327s000413F2015000c.html",
+    "autoClick": "//span[@data-component='button-show-more']"
+  },
+  {
+    "name": "Forbes JAPAN",
+    "url": "^https?://forbesjapan\\.com/articles/detail/",
+    "pageElement": "//div[contains(@class,'article-detail-txt')]",
+    "nextLink": "//div[@class='article-detail-btn']/a",
+    "action": 1,
+    "init": "if(!location.search.includes('read_more=1'))location.href=location.origin+location.pathname+(location.search?location.search+'&':'?')+'read_more=1';"
   },
   {
     "name": "日経クロステック",
