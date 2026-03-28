@@ -4,7 +4,7 @@
     "author": "takano",
     "url": "^https?://trilltrill\\.jp/articles",
     "example": "https://trilltrill.jp/articles/4533385",
-    "autoClick": "//button[@id='readmore']"
+    "autoClick": "//button[text()='続きを読む']"
   },
   {
     "name": "Startpage 検索結果",
