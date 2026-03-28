@@ -1,5 +1,13 @@
 [
   {
+  "name": "Forbes JAPAN",
+  "url": "^https?://forbesjapan\\.com/articles/detail/",
+  "pageElement": "//div[contains(@class,'article-detail-txt')]",
+  "nextLink": "//div[@class='article-detail-btn']/a",
+  "action": 1,
+  "init": "if(!location.href.includes('&read_more=1'))location.href+=(location.href.includes('?')?'&':'?')+'read_more=1';"
+  },
+  {
     "name": "日経クロステック",
     "auther": "takano",
     "url": "^https?://xtech\\.nikkei\\.com/atcl/nxt/column/\\d+/\\d+/\\d+/?(\\?P=\\d+)?$",
