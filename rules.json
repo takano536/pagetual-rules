@@ -3,7 +3,7 @@
     "name": "スポニチ | Read more",
     "url": "^https?://www\\.sponichi\\.co\\.jp/entertainment/news/\\d+/\\d+/\\d+/kiji/",
     "example": "https://www.sponichi.co.jp/entertainment/news/2026/03/27/kiji/20260327s000413F2015000c.html",
-    "autoClick": "//span[@data-component='button-show-more']"
+    "autoClick": "//a[contains(@class,'btn-more') and contains(text(),'続き')] | //span[@data-component='button-show-more']"
   },
   {
     "name": "Forbes JAPAN",
