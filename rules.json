@@ -1,5 +1,15 @@
 [
   {
+    "name": "日経クロステック",
+    "auther": "takano",
+    "url": "^https?://xtech\\.nikkei\\.com/atcl/nxt/column/\\d+/\\d+/\\d+/?(\\?P=\\d+)?$",
+    "example": "https://xtech.nikkei.com/atcl/nxt/column/18/03525/022700003/",
+    "pageElement": "(//div[contains(@class,'articleBody') and contains(@class,'article_body')])[1]/*[not(contains(@class,'article_navigation')) and not(contains(@class,'keywordList'))]",
+    "insert": "(//div[contains(@class,'article_navigation')])[1]",
+    "insertPos": 1,
+    "nextLink": "//a[contains(@class,'article_nextPage_link')]"
+  },
+  {
     "name": "PRESIDENT Online",
     "author": "takano",
     "url": "^https?://president\\.jp/articles/-/",
