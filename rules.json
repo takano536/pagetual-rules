@@ -2,58 +2,58 @@
   {
     "name": "Pagination | Start from page 1",
     "author": "takano",
-    "url": "^https?://(?:[^/]+\\.)?(?:sponichi\\.co\\.jp|forbesjapan\\.com|xtech\\.nikkei\\.com|president\\.jp|trilltrill\\.jp|natgeo\\.nikkeibp\\.co\\.jp|diamond\\.jp|newsdig\\.tbs\\.co\\.jp|news\\.livedoor\\.com|nikkansports\\.com|news\\.nifty\\.com|daily\\.co\\.jp|itmedia\\.co\\.jp|asagei\\.biz|grapee\\.jp|gendai\\.media|getnews\\.jp|toyokeizai\\.net|fnn\\.jp|bunshun\\.jp|nikkan-gendai\\.com|article\\.auone\\.jp|ascii\\.jp|sbbit\\.jp|allabout\\.co\\.jp|gentosha-go\\.com|limo\\.media|moneypost\\.jp|tokyo-sports\\.co\\.jp|times\\.abema\\.tv|news\\.mynavi\\.jp|topics\\.smt\\.docomo\\.ne\\.jp|nazology\\.kusuguru\\.co\\.jp|news\\.tv-asahi\\.co\\.jp|media\\.finasee\\.jp|gizmodo\\.jp)/.*[?&]page=[2-9]\\d*(?:[&#]|$)",
+    "url": "^https?://(?:[^/]+\\.)?(?:sponichi\\.co\\.jp|forbesjapan\\.com|xtech\\.nikkei\\.com|president\\.jp|trilltrill\\.jp|natgeo\\.nikkeibp\\.co\\.jp|diamond\\.jp|newsdig\\.tbs\\.co\\.jp|news\\.livedoor\\.com|nikkansports\\.com|news\\.nifty\\.com|daily\\.co\\.jp|itmedia\\.co\\.jp|asagei\\.biz|grapee\\.jp|gendai\\.media|getnews\\.jp|toyokeizai\\.net|fnn\\.jp|bunshun\\.jp|nikkan-gendai\\.com|article\\.auone\\.jp|ascii\\.jp|sbbit\\.jp|allabout\\.co\\.jp|gentosha-go\\.com|limo\\.media|moneypost\\.jp|tokyo-sports\\.co\\.jp|times\\.abema\\.tv|news\\.mynavi\\.jp|topics\\.smt\\.docomo\\.ne\\.jp|nazology\\.kusuguru\\.co\\.jp|news\\.tv-asahi\\.co\\.jp|media\\.finasee\\.jp|gizmodo\\.jp)/.*[?&]page=(?:[2-9]|[1-9]\\d+)(?:[&#]|$)",
     "example": "https://newsdig.tbs.co.jp/articles/-/3100830?page=2",
     "init": "(() => { const u=new URL(location.href),h=u.hostname;u.search='';u.hash='';if(/newsdig\\.tbs\\.co\\.jp$/.test(h))u.search='?display=1';else if(/toyokeizai\\.net$/.test(h))u.search='?display=b';else if(/(?:limo\\.media|times\\.abema\\.tv)$/.test(h))u.search='?page=1';location.replace(u.href); })();"
   },
   {
     "name": "日経クロステック | Page 1",
     "author": "takano",
-    "url": "^https?://xtech\\.nikkei\\.com/atcl/.+[?&]P=[2-9]\\d*(?:[&#]|$)",
+    "url": "^https?://xtech\\.nikkei\\.com/atcl/.+[?&]P=(?:[2-9]|[1-9]\\d+)(?:[&#]|$)",
     "example": "https://xtech.nikkei.com/atcl/nxt/column/18/03525/022700003/?P=2",
     "init": "(() => { const u=new URL(location.href);u.search='';u.hash='';location.replace(u.href); })();"
   },
   {
     "name": "National Geographic | Page 1",
     "author": "takano",
-    "url": "^https?://natgeo\\.nikkeibp\\.co\\.jp/atcl/.+[?&]P=[2-9]\\d*(?:[&#]|$)",
+    "url": "^https?://natgeo\\.nikkeibp\\.co\\.jp/atcl/.+[?&]P=(?:[2-9]|[1-9]\\d+)(?:[&#]|$)",
     "example": "https://natgeo.nikkeibp.co.jp/atcl/news/25/091100505/?P=2",
     "init": "(() => { const u=new URL(location.href);u.search='';u.hash='';location.replace(u.href); })();"
   },
   {
     "name": "日刊ゲンダイDIGITAL | Page 1",
     "author": "takano",
-    "url": "^https?://www\\.nikkan-gendai\\.com/articles/view/[^/]+/\\d+/[2-9]\\d*/?(?:\\?.*)?$",
+    "url": "^https?://www\\.nikkan-gendai\\.com/articles/view/[^/]+/\\d+/(?:[2-9]|[1-9]\\d+)/?(?:\\?.*)?$",
     "example": "https://www.nikkan-gendai.com/articles/view/sports/363021/2",
-    "init": "location.replace(location.href.replace(/\\/[2-9]\\d*\\/?(?:\\?.*)?$/, ''));"
+    "init": "location.replace(location.href.replace(/\\/(?:[2-9]|[1-9]\\d+)\\/?(?:\\?.*)?$/, ''));"
   },
   {
     "name": "ASCII.jp | Page 1",
     "author": "takano",
-    "url": "^https?://ascii\\.jp/elem/\\d{3}/\\d{3}/\\d{3}/\\d{7}/[2-9]\\d*/?(?:\\?.*)?$",
+    "url": "^https?://ascii\\.jp/elem/\\d{3}/\\d{3}/\\d{3}/\\d{7}/(?:[2-9]|[1-9]\\d+)/?(?:\\?.*)?$",
     "example": "https://ascii.jp/elem/000/004/231/4231666/2/",
-    "init": "location.replace(location.href.replace(/\\/[2-9]\\d*\\/?(?:\\?.*)?$/, '/'));"
+    "init": "location.replace(location.href.replace(/\\/(?:[2-9]|[1-9]\\d+)\\/?(?:\\?.*)?$/, '/'));"
   },
   {
     "name": "マネーポストWEB | Page 1",
     "author": "takano",
-    "url": "^https?://www\\.moneypost\\.jp/\\d+/[2-9]\\d*/?(?:\\?.*)?$",
+    "url": "^https?://www\\.moneypost\\.jp/\\d+/(?:[2-9]|[1-9]\\d+)/?(?:\\?.*)?$",
     "example": "https://www.moneypost.jp/1212899/2/",
-    "init": "location.replace(location.href.replace(/\\/[2-9]\\d*\\/?(?:\\?.*)?$/, '/'));"
+    "init": "location.replace(location.href.replace(/\\/(?:[2-9]|[1-9]\\d+)\\/?(?:\\?.*)?$/, '/'));"
   },
   {
     "name": "ナゾロジー | Page 1",
     "author": "takano",
-    "url": "^https?://nazology\\.kusuguru\\.co\\.jp/archives/\\d+/[2-9]\\d*/?(?:\\?.*)?$",
+    "url": "^https?://nazology\\.kusuguru\\.co\\.jp/archives/\\d+/(?:[2-9]|[1-9]\\d+)/?(?:\\?.*)?$",
     "example": "https://nazology.kusuguru.co.jp/archives/168291/2",
-    "init": "location.replace(location.href.replace(/\\/[2-9]\\d*\\/?(?:\\?.*)?$/, ''));"
+    "init": "location.replace(location.href.replace(/\\/(?:[2-9]|[1-9]\\d+)\\/?(?:\\?.*)?$/, ''));"
   },
   {
     "name": "ITmedia | Page 1",
     "author": "takano",
-    "url": "^https?://.+\\.itmedia\\.co\\.jp/.+_[2-9]\\d*\\.html(?:\\?.*)?$",
+    "url": "^https?://.+\\.itmedia\\.co\\.jp/.+_(?:[2-9]|[1-9]\\d+)\\.html(?:\\?.*)?$",
     "example": "https://www.itmedia.co.jp/business/articles/2411/05/news028_2.html",
-    "init": "location.replace(location.href.replace(/_[2-9]\\d*\\.html(?:\\?.*)?$/, '.html'));"
+    "init": "location.replace(location.href.replace(/_(?:[2-9]|[1-9]\\d+)\\.html(?:\\?.*)?$/, '.html'));"
   },
   {
     "name": "スポニチ | Read more",
