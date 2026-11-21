@@ -96,6 +96,13 @@
     "exclude": "//div[@class='sub-column']"
   },
   {
+    "name": "TBS NEWS DIG | Read more",
+    "author": "takano",
+    "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-/\\d+$",
+    "example": "https://newsdig.tbs.co.jp/articles/-/3100830",
+    "autoClick": "//a[contains(@class,'c-button-read')]"
+  },
+  {
     "name": "TBS NEWS DIG",
     "author": "takano",
     "url": "^https?://newsdig\\.tbs\\.co\\.jp/articles/-",
