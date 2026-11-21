@@ -147,9 +147,9 @@
     "name": "ダイヤモンド・オンライン",
     "author": "takano",
     "url": "^https?://diamond\\.jp/articles/-/",
-    "example": "https://diamond.jp/articles/amp/352572",
-    "pageElement": "//div[@class='article-body cXenseParse']",
-    "exclude": "//div[@class='sub-column']"
+    "example": "https://diamond.jp/articles/-/403914",
+    "pageElement": "//section[contains(@class,'article-body')]",
+    "nextLink": "//a[@id='next-page'] | //div[@class='pagination']//a[@class='next']"
   },
   {
     "name": "TBS NEWS DIG | Read more",
